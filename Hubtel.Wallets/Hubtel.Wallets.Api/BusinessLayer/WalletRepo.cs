@@ -7,7 +7,7 @@ using Microsoft.VisualBasic;
 
 namespace Hubtel.Wallets.Api.BusinessLayer
 {
-
+    //This class contains implementation of IWalletRepo.cs
     public class WalletRepo : IWalletRepo   
     {
         string Msg;

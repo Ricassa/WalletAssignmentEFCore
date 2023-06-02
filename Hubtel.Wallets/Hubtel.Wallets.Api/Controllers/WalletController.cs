@@ -11,6 +11,7 @@ namespace Hubtel.Wallets.Api.Controllers
     [Route("[controller]")]
     public class WalletController : Controller
     {
+        //Injected IWalletRepo using the constructor
         private readonly IWalletRepo _walletRepo;   
         public WalletController(IWalletRepo walletRepo)
         {

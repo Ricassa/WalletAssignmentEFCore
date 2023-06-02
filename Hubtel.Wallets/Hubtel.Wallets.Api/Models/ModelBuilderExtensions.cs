@@ -3,6 +3,7 @@ using System;
 
 namespace Hubtel.Wallets.Api.Models
 {
+    //Initial Data for DB
     public static class ModelBuilderExtensions
     {
         public static void Seed(this ModelBuilder modelBuilder)

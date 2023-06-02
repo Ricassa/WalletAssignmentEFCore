@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 namespace Hubtel.Wallets.Api.BusinessLayer
 {
+    //This interface specifies the operations/methods that are supported by WalletRepo.cs
+    
     public interface IWalletRepo
     {
         string Add(Wallet wallet);

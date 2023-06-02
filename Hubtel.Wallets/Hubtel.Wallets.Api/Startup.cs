@@ -28,6 +28,8 @@ namespace Hubtel.Wallets.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Add Connection String for our database
+            //WalletCon is stored in appsettings.json file
             services.AddDbContextPool<WalletDbContext>(
                 options => options.UseSqlServer(Configuration.GetConnectionString("WalletCon")));
 
